@@ -60,7 +60,7 @@ python voc_eval.py models/NW-model.pkl config.py
 ![](image/result.png)
 
 <br />
-<center>Our performance in DOTA dataset</center>
+<center>Our performance on the DOTA dataset</center>
 
 |Dataset	| P    | S    | ST   | BD   | TC   | BC   | GTF  | H    | B    | SV   | LV   | SBF  | RA   | SP   | HC   | MAP| 
 |  ----         | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -68,7 +68,7 @@ python voc_eval.py models/NW-model.pkl config.py
 
 <br />
 
-<center>Our performance in NWPU VHR-10 dataset</center>
+<center>Our performance on the NWPU VHR-10 dataset</center>
 
 |Dataset    | airplane | storage tank | baseball diamond | tennis court | basketball court | ground track field | harbor | bridge | vehicle | shi | mAP|
 |  ----      | ----    | ----         | ----             | ----         |             ---- |               ---- | ----   | ----   | ----    | ----| ---- |
@@ -78,7 +78,7 @@ python voc_eval.py models/NW-model.pkl config.py
 <br />
 
 
-<center>Our performance in DIOR dataset</center>
+<center>Our performance on the DIOR dataset</center>
 <table>
 	<tr>
 	    <td rowspan="2">Dataset</td>
