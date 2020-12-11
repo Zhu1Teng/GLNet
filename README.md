@@ -12,6 +12,7 @@ DIOR. Experimental results have demonstrated that our GLNet outperforms numerous
 1. Clone and enter this repository:
 
 ```
+https://github.com/Zhu1Teng/GLNet.git
 ```
 
 2. Download dataset
@@ -58,14 +59,14 @@ python voc_eval.py models/NW-model.pkl config.py
 
 ![](image/result.png)
 
-
+<br />
 <center>Our performance in DOTA dataset</center>
 
 |Dataset	| P    | S    | ST   | BD   | TC   | BC   | GTF  | H    | B    | SV   | LV   | SBF  | RA   | SP   | HC   | MAP| 
 |  ----         | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 |DOTA | 89.4 | 53.9 | 77.2 | 71.5 | 79.9 | 66.9 | 68.4 | 73.1 | 43.1 | 31.9 | 52.5 | 74.1 | 64.6 | 59.2 | 74.0 |65.3|
 
-<br /><br />
+<br />
 
 <center>Our performance in NWPU VHR-10 dataset</center>
 
@@ -74,7 +75,7 @@ python voc_eval.py models/NW-model.pkl config.py
 | NWPU VHR-10|100      | 84.4         | 98.5           | 81.6              | 88.2          | 100                | 97.2   | 88.4  | 90.9  | 88.7 | 91.8 |
 
 
-<br /><br />
+<br />
 
 
 <center>Our performance in DIOR dataset</center>
