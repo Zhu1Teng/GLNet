@@ -19,7 +19,7 @@ https://github.com/Zhu1Teng/GLNet.git
     Please download [Nwpu vhr-10](https://drive.google.com/file/d/1kcihENWlcEwTV0tXYLEjrjS1YhE-BaWy/view?usp=sharing), Dior and unzip them in the `data` folder.
 
 3. Download model
-    Please download [all model](https://drive.google.com/drive/folders/1NkaYV5wo_9jlONgJwQi0sy82XuVfXzV6?usp=sharing) and put them in the model folder.
+    Please download [all model](https://drive.google.com/drive/folders/1NkaYV5wo_9jlONgJwQi0sy82XuVfXzV6?usp=sharing) and put them in the `model` folder.
 
 ## Do evaluate
 
