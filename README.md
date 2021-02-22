@@ -7,6 +7,8 @@ This repository provides the test code of our paper Global to Local: Clip-LSTM b
 Object detection from Remote Sensing Images(RSIs) is a basic topic in the area of aviation and satellite image processing, which has great effects on geological disaster detection, agricultural planning, and land utilization. However,it is always faced with several severe difficulties. For instance,the scale of the target spans over a very wide range, and the difference between the target size and the image size is huge, as some targets only account for a dozen pixels compared with the remote sensing image of the megapixel level. In this work, an innovative object detection network (GLNet) integrating clip-LSTM is proposed for remote sensing imagery. Our approach integrates global context clues extracted by multi-scale perception subnetwork (MSPNet) and local spatial contextual correlations encoded by the clip-LSTM. These rich semantic features are further exploited to design a self-adapted anchor subnetwork (SANet) to alleviate the scale variations in RSIs. Extensive experiments are executed on several public easilyaccessed benchmarks, including DOTA, NWPU VHR-10, and
 DIOR. Experimental results have demonstrated that our GLNet outperforms numerous latest methods.
 
+Note: We added the three subnetworks proposed in this paper to Faster RCNN trained on oriented bounding boxes. The results show that the GLNet proposed in this paper can improve the accuracy of OBB object detection. Got trained model. 
+
 ## Installation
 
 1. Clone and enter this repository:
@@ -133,3 +135,9 @@ python voc_eval.py models/NW-model.pkl config.py
 	    <td></td>
 	</tr>
 </table>
+Comparison of original OBB Faster RCNN and improved OBB GLNet on DOTA
+
+|	| plane    | baseball-diamond    | bridge   | ground-track-field   | small-vehicle   | large-vehicle   | ship  | tennis-court    | basketball-court    | storage-tank   | soccer-ball-field   | roundabout  | harbor   | swimming-pool   | helicopter   | MAP| 
+|  ----         | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|obb faster rcnn | 88.40 | 75.29 | 43.17 | 68.82 | 71.40 | 61.13 | 77.01 | 89.66 | 78.68 | 77.86 | 55.00 | 65.00 | 59.48 | 66.69 | 60.04 | 69.18|
+|ours | 88.34 | 79.50 | 44.24 | 64.66 | 71.02 | 70.83 | 76.53 | 89.43 | 83.45 | 85.18 | 53.43 | 66.04 | 64.50 | 67.00 | 57.14 | 70.75 |
