@@ -138,9 +138,4 @@ python voc_eval.py models/NW-model.pkl config.py
 
 <br />
 
-<center>Comparison of original OBB Faster RCNN and improved OBB GLNet on DOTA</center>
 
-|	| plane    | baseball-diamond    | bridge   | ground-track-field   | small-vehicle   | large-vehicle   | ship  | tennis-court    | basketball-court    | storage-tank   | soccer-ball-field   | roundabout  | harbor   | swimming-pool   | helicopter   | MAP| 
-|  ----         | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-|obb faster rcnn | 88.40 | 75.29 | 43.17 | 68.82 | 71.40 | 61.13 | 77.01 | 89.66 | 78.68 | 77.86 | 55.00 | 65.00 | 59.48 | 66.69 | 60.04 | 69.18|
-|ours | 88.34 | 79.50 | 44.24 | 64.66 | 71.02 | 70.83 | 76.53 | 89.43 | 83.45 | 85.18 | 53.43 | 66.04 | 64.50 | 67.00 | 57.14 | 70.75 |
